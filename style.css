@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-pixabay-65882.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: antiquewhite;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: antiquewhite;
+    padding: 8px 16px;
+    margin: 0 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    font-size: 15px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: gold;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    letter-spacing: .5px;
+    color: black;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    max-width: 1200px;
+    color: goldenrod;
+}
+
+.main-content h1 {
+    font-size: 4rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.main-content button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 12px 28px;
+    letter-spacing: .8px;
+    color: black;
+    font-weight: 600;
+    background: goldenrod;
+    transition: .4s;
+}
+
+.main-content button:hover {
+    background: black;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+}
